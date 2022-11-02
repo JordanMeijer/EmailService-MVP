@@ -1,0 +1,763 @@
+2022-08-12 09:24:20.613 +12:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-08-12 09:24:21.069 +12:00 [DBG] Hosting starting
+2022-08-12 09:24:21.865 +12:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 59E02EFD4CC2C3C51123EA08CBA6E58580EB7BE8)
+2022-08-12 09:24:22.015 +12:00 [INF] Now listening on: https://localhost:7210
+2022-08-12 09:24:22.019 +12:00 [INF] Now listening on: http://localhost:5210
+2022-08-12 09:24:22.021 +12:00 [DBG] Loaded hosting startup assembly EmailService
+2022-08-12 09:24:22.029 +12:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-08-12 09:24:22.032 +12:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-08-12 09:24:22.060 +12:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-12 09:24:22.062 +12:00 [INF] Hosting environment: Development
+2022-08-12 09:24:22.066 +12:00 [INF] Content root path: C:\Users\jordan.m\OneDrive - Digital Island\Documents\DaprTest\EmailService\
+2022-08-12 09:24:22.071 +12:00 [DBG] Hosting started
+2022-08-12 09:24:22.099 +12:00 [DBG] Connection id "0HMJRRVDRRDDN" accepted.
+2022-08-12 09:24:22.099 +12:00 [DBG] Connection id "0HMJRRVDRRDDO" accepted.
+2022-08-12 09:24:22.109 +12:00 [DBG] Connection id "0HMJRRVDRRDDN" started.
+2022-08-12 09:24:22.111 +12:00 [DBG] Connection id "0HMJRRVDRRDDO" started.
+2022-08-12 09:24:22.113 +12:00 [DBG] Connection id "0HMJRRVDRRDDP" accepted.
+2022-08-12 09:24:22.129 +12:00 [DBG] Connection id "0HMJRRVDRRDDP" started.
+2022-08-12 09:24:22.297 +12:00 [DBG] Connection id "0HMJRRVDRRDDP" received FIN.
+2022-08-12 09:24:22.426 +12:00 [DBG] Connection id "0HMJRRVDRRDDQ" accepted.
+2022-08-12 09:24:22.449 +12:00 [DBG] Connection id "0HMJRRVDRRDDQ" started.
+2022-08-12 09:24:22.466 +12:00 [DBG] Connection 0HMJRRVDRRDDP established using the following protocol: "Tls12"
+2022-08-12 09:24:22.466 +12:00 [DBG] Connection 0HMJRRVDRRDDN established using the following protocol: "Tls12"
+2022-08-12 09:24:22.545 +12:00 [DBG] Connection id "0HMJRRVDRRDDP" is closed. The last processed stream ID was 0.
+2022-08-12 09:24:22.575 +12:00 [DBG] Connection id "0HMJRRVDRRDDP" sending FIN because: "The client closed the connection."
+2022-08-12 09:24:22.595 +12:00 [DBG] Connection id "0HMJRRVDRRDDP" stopped.
+2022-08-12 09:24:22.783 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/swagger/index.html - -
+2022-08-12 09:24:22.941 +12:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-08-12 09:24:22.994 +12:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-08-12 09:24:22.999 +12:00 [DBG] Request did not match any endpoints
+2022-08-12 09:24:23.447 +12:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-08-12 09:24:24.005 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/swagger/index.html - -
+2022-08-12 09:24:24.031 +12:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-08-12 09:24:24.047 +12:00 [DBG] Request did not match any endpoints
+2022-08-12 09:24:24.060 +12:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-08-12 09:24:24.714 +12:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-08-12 09:24:24.714 +12:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-08-12 09:24:24.738 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/swagger/index.html - - - 200 - text/html;charset=utf-8 1965.0368ms
+2022-08-12 09:24:24.738 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/swagger/index.html - - - 200 - text/html;charset=utf-8 731.2195ms
+2022-08-12 09:24:24.832 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/_framework/aspnetcore-browser-refresh.js - -
+2022-08-12 09:24:24.851 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 19.2248ms
+2022-08-12 09:24:25.212 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/_vs/browserLink - -
+2022-08-12 09:24:25.788 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 575.9730ms
+2022-08-12 09:24:26.011 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/_framework/aspnetcore-browser-refresh.js - -
+2022-08-12 09:24:26.014 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 3.2223ms
+2022-08-12 09:24:26.508 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/_vs/browserLink - -
+2022-08-12 09:24:26.539 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 31.1868ms
+2022-08-12 09:24:27.091 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/swagger/v1/swagger.json - -
+2022-08-12 09:24:27.098 +12:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-08-12 09:24:27.101 +12:00 [DBG] Request did not match any endpoints
+2022-08-12 09:24:27.461 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 370.3874ms
+2022-08-12 09:24:27.543 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/swagger/v1/swagger.json - -
+2022-08-12 09:24:27.599 +12:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-08-12 09:24:27.602 +12:00 [DBG] Request did not match any endpoints
+2022-08-12 09:24:27.606 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 94.8478ms
+2022-08-12 09:24:32.221 +12:00 [DBG] Authentication of the HTTPS connection timed out.
+2022-08-12 09:24:32.223 +12:00 [DBG] Connection id "0HMJRRVDRRDDO" stopped.
+2022-08-12 09:24:32.226 +12:00 [DBG] Connection id "0HMJRRVDRRDDO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-12 09:24:32.496 +12:00 [DBG] Authentication of the HTTPS connection timed out.
+2022-08-12 09:24:32.499 +12:00 [DBG] Connection id "0HMJRRVDRRDDQ" stopped.
+2022-08-12 09:24:32.502 +12:00 [DBG] Connection id "0HMJRRVDRRDDQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-12 09:24:33.885 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/swagger/index.html - -
+2022-08-12 09:24:33.888 +12:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-08-12 09:24:33.891 +12:00 [DBG] Request did not match any endpoints
+2022-08-12 09:24:33.893 +12:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-08-12 09:24:33.911 +12:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-08-12 09:24:33.915 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/swagger/index.html - - - 200 - text/html;charset=utf-8 29.6956ms
+2022-08-12 09:24:33.942 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/_framework/aspnetcore-browser-refresh.js - -
+2022-08-12 09:24:33.946 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/_vs/browserLink - -
+2022-08-12 09:24:33.948 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 5.7478ms
+2022-08-12 09:24:33.968 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.3344ms
+2022-08-12 09:24:34.141 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/swagger/v1/swagger.json - -
+2022-08-12 09:24:34.143 +12:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-08-12 09:24:34.144 +12:00 [DBG] Request did not match any endpoints
+2022-08-12 09:24:34.147 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.9251ms
+2022-08-12 09:24:34.579 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/swagger/index.html - -
+2022-08-12 09:24:34.582 +12:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-08-12 09:24:34.585 +12:00 [DBG] Request did not match any endpoints
+2022-08-12 09:24:34.589 +12:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-08-12 09:24:34.598 +12:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-08-12 09:24:34.601 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/swagger/index.html - - - 200 - text/html;charset=utf-8 23.0085ms
+2022-08-12 09:24:34.634 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/_vs/browserLink - -
+2022-08-12 09:24:34.638 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/_framework/aspnetcore-browser-refresh.js - -
+2022-08-12 09:24:34.648 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 9.5363ms
+2022-08-12 09:24:34.671 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 37.6213ms
+2022-08-12 09:24:34.815 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/swagger/v1/swagger.json - -
+2022-08-12 09:24:34.820 +12:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-08-12 09:24:34.824 +12:00 [DBG] Request did not match any endpoints
+2022-08-12 09:24:34.832 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 17.3046ms
+2022-08-12 09:24:39.986 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/swagger/index.html - -
+2022-08-12 09:24:39.989 +12:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-08-12 09:24:39.992 +12:00 [DBG] Request did not match any endpoints
+2022-08-12 09:24:39.995 +12:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-08-12 09:24:40.007 +12:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-08-12 09:24:40.010 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/swagger/index.html - - - 200 - text/html;charset=utf-8 23.3284ms
+2022-08-12 09:24:40.030 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/_framework/aspnetcore-browser-refresh.js - -
+2022-08-12 09:24:40.030 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/_vs/browserLink - -
+2022-08-12 09:24:40.033 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 3.2424ms
+2022-08-12 09:24:40.049 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.3640ms
+2022-08-12 09:24:40.501 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/swagger/v1/swagger.json - -
+2022-08-12 09:24:40.503 +12:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-08-12 09:24:40.508 +12:00 [DBG] Request did not match any endpoints
+2022-08-12 09:24:40.510 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 9.3134ms
+2022-08-12 09:24:43.140 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/swagger/index.html - -
+2022-08-12 09:24:43.144 +12:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-08-12 09:24:43.147 +12:00 [DBG] Request did not match any endpoints
+2022-08-12 09:24:43.151 +12:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-08-12 09:24:43.166 +12:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-08-12 09:24:43.169 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/swagger/index.html - - - 200 - text/html;charset=utf-8 28.6347ms
+2022-08-12 09:24:43.192 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/_vs/browserLink - -
+2022-08-12 09:24:43.192 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/_framework/aspnetcore-browser-refresh.js - -
+2022-08-12 09:24:43.198 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 6.1721ms
+2022-08-12 09:24:43.209 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.9212ms
+2022-08-12 09:24:43.500 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/swagger/v1/swagger.json - -
+2022-08-12 09:24:43.503 +12:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-08-12 09:24:43.507 +12:00 [DBG] Request did not match any endpoints
+2022-08-12 09:24:43.510 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 10.2585ms
+2022-08-12 09:24:44.737 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/swagger/index.html - -
+2022-08-12 09:24:44.741 +12:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-08-12 09:24:44.743 +12:00 [DBG] Request did not match any endpoints
+2022-08-12 09:24:44.745 +12:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-08-12 09:24:44.755 +12:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-08-12 09:24:44.758 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/swagger/index.html - - - 200 - text/html;charset=utf-8 20.1522ms
+2022-08-12 09:24:44.789 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/_framework/aspnetcore-browser-refresh.js - -
+2022-08-12 09:24:44.790 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/_vs/browserLink - -
+2022-08-12 09:24:44.792 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 2.6638ms
+2022-08-12 09:24:44.804 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.5178ms
+2022-08-12 09:24:44.974 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/swagger/v1/swagger.json - -
+2022-08-12 09:24:44.977 +12:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-08-12 09:24:44.980 +12:00 [DBG] Request did not match any endpoints
+2022-08-12 09:24:44.988 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 13.5336ms
+2022-08-12 09:24:45.546 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/swagger/index.html - -
+2022-08-12 09:24:45.552 +12:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-08-12 09:24:45.556 +12:00 [DBG] Request did not match any endpoints
+2022-08-12 09:24:45.559 +12:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-08-12 09:24:45.578 +12:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-08-12 09:24:45.582 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/swagger/index.html - - - 200 - text/html;charset=utf-8 36.0368ms
+2022-08-12 09:24:45.653 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/_framework/aspnetcore-browser-refresh.js - -
+2022-08-12 09:24:45.656 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/_vs/browserLink - -
+2022-08-12 09:24:45.660 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 6.8896ms
+2022-08-12 09:24:45.684 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.5917ms
+2022-08-12 09:24:46.151 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/swagger/v1/swagger.json - -
+2022-08-12 09:24:46.153 +12:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-08-12 09:24:46.158 +12:00 [DBG] Request did not match any endpoints
+2022-08-12 09:24:46.162 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 10.7686ms
+2022-08-12 09:25:02.028 +12:00 [INF] Request starting HTTP/2 POST https://localhost:7210/sendemail application/json 210
+2022-08-12 09:25:02.040 +12:00 [DBG] 1 candidate(s) found for the request path '/sendemail'
+2022-08-12 09:25:02.047 +12:00 [DBG] Endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)' with route pattern 'sendemail' is valid for the request path '/sendemail'
+2022-08-12 09:25:02.050 +12:00 [DBG] Request matched endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)'
+2022-08-12 09:25:02.053 +12:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-08-12 09:25:02.059 +12:00 [INF] Executing endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)'
+2022-08-12 09:25:02.114 +12:00 [INF] Route matched with {action = "SendEmail", controller = "Mail"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] SendEmail(EmailService.Models.EmailBodyDto) on controller EmailService.Controllers.MailController (EmailService).
+2022-08-12 09:25:02.121 +12:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-12 09:25:02.124 +12:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-12 09:25:02.126 +12:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-12 09:25:02.129 +12:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-12 09:25:02.132 +12:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-12 09:25:02.136 +12:00 [DBG] Executing controller factory for controller EmailService.Controllers.MailController (EmailService)
+2022-08-12 09:25:02.962 +12:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-08-12 09:25:03.008 +12:00 [DBG] Executed controller factory for controller EmailService.Controllers.MailController (EmailService)
+2022-08-12 09:25:03.069 +12:00 [DBG] Attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto' ...
+2022-08-12 09:25:03.076 +12:00 [DBG] Attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto' using the name '' in request data ...
+2022-08-12 09:25:03.079 +12:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-08-12 09:25:03.090 +12:00 [DBG] Connection id "0HMJRRVDRRDDN", Request id "0HMJRRVDRRDDN:00000041": started reading request body.
+2022-08-12 09:25:03.092 +12:00 [DBG] Connection id "0HMJRRVDRRDDN", Request id "0HMJRRVDRRDDN:00000041": done reading request body.
+2022-08-12 09:25:03.104 +12:00 [DBG] JSON input formatter succeeded, deserializing to type 'EmailService.Models.EmailBodyDto'
+2022-08-12 09:25:03.106 +12:00 [DBG] Done attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto'.
+2022-08-12 09:25:03.108 +12:00 [DBG] Done attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto'.
+2022-08-12 09:25:03.110 +12:00 [DBG] Attempting to validate the bound parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto' ...
+2022-08-12 09:25:03.123 +12:00 [DBG] Done attempting to validate the bound parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto'.
+2022-08-12 09:25:08.226 +12:00 [INF] Sent email to jordan.m@digitalisland.co.nz about Reset Password
+2022-08-12 09:25:10.897 +12:00 [INF] Entity Framework Core 6.0.8 initialized 'DIEmailContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2022-08-12 09:25:11.095 +12:00 [DBG] 'DIEmailContext' generated a temporary value for the property 'EmailLogId.EmailLog'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-08-12 09:25:11.273 +12:00 [DBG] Context 'DIEmailContext' started tracking 'EmailLog' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-08-12 09:25:11.300 +12:00 [DBG] SaveChanges starting for 'DIEmailContext'.
+2022-08-12 09:25:11.316 +12:00 [DBG] DetectChanges starting for 'DIEmailContext'.
+2022-08-12 09:25:11.355 +12:00 [DBG] DetectChanges completed for 'DIEmailContext'.
+2022-08-12 09:25:11.826 +12:00 [DBG] Opening connection to database 'di-user' on server 'di-test.database.windows.net'.
+2022-08-12 09:25:13.513 +12:00 [DBG] Opened connection to database 'di-user' on server 'di-test.database.windows.net'.
+2022-08-12 09:25:13.522 +12:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-08-12 09:25:13.592 +12:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2022-08-12 09:25:13.697 +12:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-08-12 09:25:13.707 +12:00 [DBG] Created DbCommand for 'ExecuteReader' (9ms).
+2022-08-12 09:25:13.749 +12:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 254), @p1='?' (Size = 230), @p2='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [EmailLogs] ([EmailTo], [Subject], [Time])
+VALUES (@p0, @p1, @p2);
+SELECT [EmailLogId]
+FROM [EmailLogs]
+WHERE @@ROWCOUNT = 1 AND [EmailLogId] = scope_identity();
+2022-08-12 09:25:13.964 +12:00 [INF] Executed DbCommand (199ms) [Parameters=[@p0='?' (Size = 254), @p1='?' (Size = 230), @p2='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [EmailLogs] ([EmailTo], [Subject], [Time])
+VALUES (@p0, @p1, @p2);
+SELECT [EmailLogId]
+FROM [EmailLogs]
+WHERE @@ROWCOUNT = 1 AND [EmailLogId] = scope_identity();
+2022-08-12 09:25:14.236 +12:00 [DBG] The foreign key property 'EmailLog.EmailLogId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2022-08-12 09:25:14.361 +12:00 [DBG] A data reader was disposed.
+2022-08-12 09:25:14.427 +12:00 [DBG] Committing transaction.
+2022-08-12 09:25:14.533 +12:00 [DBG] Committed transaction.
+2022-08-12 09:25:14.564 +12:00 [DBG] Closing connection to database 'di-user' on server 'di-test.database.windows.net'.
+2022-08-12 09:25:14.602 +12:00 [DBG] Closed connection to database 'di-user' on server 'di-test.database.windows.net'.
+2022-08-12 09:25:14.626 +12:00 [DBG] Disposing transaction.
+2022-08-12 09:25:14.707 +12:00 [DBG] An entity of type 'EmailLog' tracked by 'DIEmailContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-08-12 09:25:14.729 +12:00 [DBG] SaveChanges completed for 'DIEmailContext' with 1 entities written to the database.
+2022-08-12 09:25:14.764 +12:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2022-08-12 09:25:14.788 +12:00 [INF] Executed action EmailService.Controllers.MailController.SendEmail (EmailService) in 12637.4608ms
+2022-08-12 09:25:14.797 +12:00 [INF] Executed endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)'
+2022-08-12 09:25:14.820 +12:00 [DBG] 'DIEmailContext' disposed.
+2022-08-12 09:25:14.839 +12:00 [INF] Request finished HTTP/2 POST https://localhost:7210/sendemail application/json 210 - 204 - - 12810.7907ms
+2022-08-12 09:43:04.675 +12:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-08-12 09:43:05.145 +12:00 [DBG] Hosting starting
+2022-08-12 09:43:05.852 +12:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 59E02EFD4CC2C3C51123EA08CBA6E58580EB7BE8)
+2022-08-12 09:43:06.129 +12:00 [INF] Now listening on: https://localhost:7210
+2022-08-12 09:43:06.158 +12:00 [INF] Now listening on: http://localhost:5210
+2022-08-12 09:43:06.160 +12:00 [DBG] Connection id "0HMJRS9SRQ30F" received FIN.
+2022-08-12 09:43:06.164 +12:00 [DBG] Loaded hosting startup assembly EmailService
+2022-08-12 09:43:06.170 +12:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-08-12 09:43:06.174 +12:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-08-12 09:43:06.178 +12:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-12 09:43:06.185 +12:00 [INF] Hosting environment: Development
+2022-08-12 09:43:06.190 +12:00 [INF] Content root path: C:\Users\jordan.m\OneDrive - Digital Island\Documents\DaprTest\EmailService\
+2022-08-12 09:43:06.194 +12:00 [DBG] Hosting started
+2022-08-12 09:43:06.210 +12:00 [DBG] Connection id "0HMJRS9SRQ30F" accepted.
+2022-08-12 09:43:06.218 +12:00 [DBG] Connection id "0HMJRS9SRQ30F" started.
+2022-08-12 09:43:06.316 +12:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-08-12 09:43:06.683 +12:00 [DBG] Connection id "0HMJRS9SRQ30F" stopped.
+2022-08-12 09:43:06.705 +12:00 [DBG] Connection id "0HMJRS9SRQ30F" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-12 09:43:07.362 +12:00 [DBG] Connection id "0HMJRS9SRQ30G" accepted.
+2022-08-12 09:43:07.672 +12:00 [DBG] Connection id "0HMJRS9SRQ30G" started.
+2022-08-12 09:43:08.071 +12:00 [DBG] Connection 0HMJRS9SRQ30G established using the following protocol: "Tls12"
+2022-08-12 09:43:08.386 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/swagger/index.html - -
+2022-08-12 09:43:08.542 +12:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-08-12 09:43:08.657 +12:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-08-12 09:43:08.676 +12:00 [DBG] Request did not match any endpoints
+2022-08-12 09:43:09.125 +12:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-08-12 09:43:09.780 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/_framework/aspnetcore-browser-refresh.js - -
+2022-08-12 09:43:09.818 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/_vs/browserLink - -
+2022-08-12 09:43:09.840 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 57.7019ms
+2022-08-12 09:43:09.901 +12:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-08-12 09:43:09.916 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/swagger/index.html - - - 200 - text/html;charset=utf-8 1561.0313ms
+2022-08-12 09:43:10.035 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 217.4908ms
+2022-08-12 09:43:10.451 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/swagger/v1/swagger.json - -
+2022-08-12 09:43:10.457 +12:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-08-12 09:43:10.471 +12:00 [DBG] Request did not match any endpoints
+2022-08-12 09:43:11.085 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 634.2387ms
+2022-08-12 09:43:50.935 +12:00 [DBG] Connection id "0HMJRS9SRQ30G" received FIN.
+2022-08-12 09:43:53.473 +12:00 [DBG] Connection id "0HMJRS9SRQ30G" is closed. The last processed stream ID was 7.
+2022-08-12 09:43:53.477 +12:00 [DBG] Connection id "0HMJRS9SRQ30G" sending FIN because: "The client closed the connection."
+2022-08-12 09:43:53.484 +12:00 [DBG] Connection id "0HMJRS9SRQ30G" stopped.
+2022-08-12 09:51:09.004 +12:00 [DBG] Connection id "0HMJRS9SRQ30H" accepted.
+2022-08-12 09:51:09.017 +12:00 [DBG] Connection id "0HMJRS9SRQ30H" started.
+2022-08-12 09:51:09.065 +12:00 [DBG] Connection 0HMJRS9SRQ30H established using the following protocol: "Tls12"
+2022-08-12 09:51:09.072 +12:00 [INF] Request starting HTTP/2 POST https://localhost:7210/sendemail application/json 210
+2022-08-12 09:51:09.082 +12:00 [DBG] 1 candidate(s) found for the request path '/sendemail'
+2022-08-12 09:51:09.089 +12:00 [DBG] Endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)' with route pattern 'sendemail' is valid for the request path '/sendemail'
+2022-08-12 09:51:09.094 +12:00 [DBG] Request matched endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)'
+2022-08-12 09:51:09.099 +12:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-08-12 09:51:09.107 +12:00 [INF] Executing endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)'
+2022-08-12 09:51:09.151 +12:00 [INF] Route matched with {action = "SendEmail", controller = "Mail"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] SendEmail(EmailService.Models.EmailBodyDto) on controller EmailService.Controllers.MailController (EmailService).
+2022-08-12 09:51:09.157 +12:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-12 09:51:09.159 +12:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-12 09:51:09.162 +12:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-12 09:51:09.165 +12:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-12 09:51:09.168 +12:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-12 09:51:09.172 +12:00 [DBG] Executing controller factory for controller EmailService.Controllers.MailController (EmailService)
+2022-08-12 09:51:10.578 +12:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-08-12 09:51:10.745 +12:00 [DBG] Executed controller factory for controller EmailService.Controllers.MailController (EmailService)
+2022-08-12 09:51:10.783 +12:00 [DBG] Attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto' ...
+2022-08-12 09:51:10.794 +12:00 [DBG] Attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto' using the name '' in request data ...
+2022-08-12 09:51:10.802 +12:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-08-12 09:51:10.824 +12:00 [DBG] Connection id "0HMJRS9SRQ30H", Request id "0HMJRS9SRQ30H:00000001": started reading request body.
+2022-08-12 09:51:10.828 +12:00 [DBG] Connection id "0HMJRS9SRQ30H", Request id "0HMJRS9SRQ30H:00000001": done reading request body.
+2022-08-12 09:51:10.860 +12:00 [DBG] JSON input formatter succeeded, deserializing to type 'EmailService.Models.EmailBodyDto'
+2022-08-12 09:51:10.867 +12:00 [DBG] Done attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto'.
+2022-08-12 09:51:10.873 +12:00 [DBG] Done attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto'.
+2022-08-12 09:51:10.878 +12:00 [DBG] Attempting to validate the bound parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto' ...
+2022-08-12 09:51:10.927 +12:00 [DBG] Done attempting to validate the bound parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto'.
+2022-08-12 09:51:16.147 +12:00 [INF] Sent email to jordan.m@digitalisland.co.nz about Reset Password
+2022-08-12 09:51:19.010 +12:00 [INF] Entity Framework Core 6.0.8 initialized 'DIEmailContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2022-08-12 09:51:19.157 +12:00 [DBG] 'DIEmailContext' generated a temporary value for the property 'EmailLogId.EmailLog'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-08-12 09:51:19.312 +12:00 [DBG] Context 'DIEmailContext' started tracking 'EmailLog' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-08-12 09:51:19.337 +12:00 [DBG] SaveChanges starting for 'DIEmailContext'.
+2022-08-12 09:51:19.358 +12:00 [DBG] DetectChanges starting for 'DIEmailContext'.
+2022-08-12 09:51:19.398 +12:00 [DBG] DetectChanges completed for 'DIEmailContext'.
+2022-08-12 09:51:19.850 +12:00 [DBG] Opening connection to database 'di-user' on server 'di-test.database.windows.net'.
+2022-08-12 09:51:21.781 +12:00 [DBG] Opened connection to database 'di-user' on server 'di-test.database.windows.net'.
+2022-08-12 09:51:21.803 +12:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-08-12 09:51:21.968 +12:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2022-08-12 09:51:22.218 +12:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-08-12 09:51:22.237 +12:00 [DBG] Created DbCommand for 'ExecuteReader' (15ms).
+2022-08-12 09:51:22.330 +12:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 254), @p1='?' (Size = 230), @p2='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [EmailLogs] ([EmailTo], [Subject], [Time])
+VALUES (@p0, @p1, @p2);
+SELECT [EmailLogId]
+FROM [EmailLogs]
+WHERE @@ROWCOUNT = 1 AND [EmailLogId] = scope_identity();
+2022-08-12 09:51:22.723 +12:00 [INF] Executed DbCommand (418ms) [Parameters=[@p0='?' (Size = 254), @p1='?' (Size = 230), @p2='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [EmailLogs] ([EmailTo], [Subject], [Time])
+VALUES (@p0, @p1, @p2);
+SELECT [EmailLogId]
+FROM [EmailLogs]
+WHERE @@ROWCOUNT = 1 AND [EmailLogId] = scope_identity();
+2022-08-12 09:51:22.828 +12:00 [DBG] The foreign key property 'EmailLog.EmailLogId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2022-08-12 09:51:22.871 +12:00 [DBG] A data reader was disposed.
+2022-08-12 09:51:22.898 +12:00 [DBG] Committing transaction.
+2022-08-12 09:51:23.025 +12:00 [DBG] Committed transaction.
+2022-08-12 09:51:23.045 +12:00 [DBG] Closing connection to database 'di-user' on server 'di-test.database.windows.net'.
+2022-08-12 09:51:23.071 +12:00 [DBG] Closed connection to database 'di-user' on server 'di-test.database.windows.net'.
+2022-08-12 09:51:23.084 +12:00 [DBG] Disposing transaction.
+2022-08-12 09:51:23.123 +12:00 [DBG] An entity of type 'EmailLog' tracked by 'DIEmailContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-08-12 09:51:23.142 +12:00 [DBG] SaveChanges completed for 'DIEmailContext' with 1 entities written to the database.
+2022-08-12 09:51:23.180 +12:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2022-08-12 09:51:23.199 +12:00 [INF] Executed action EmailService.Controllers.MailController.SendEmail (EmailService) in 14014.4979ms
+2022-08-12 09:51:23.208 +12:00 [INF] Executed endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)'
+2022-08-12 09:51:23.231 +12:00 [DBG] 'DIEmailContext' disposed.
+2022-08-12 09:51:23.244 +12:00 [INF] Request finished HTTP/2 POST https://localhost:7210/sendemail application/json 210 - 204 - - 14172.3757ms
+2022-08-12 09:52:37.274 +12:00 [INF] Request starting HTTP/2 POST https://localhost:7210/sendemail application/json 141
+2022-08-12 09:52:37.285 +12:00 [DBG] 1 candidate(s) found for the request path '/sendemail'
+2022-08-12 09:52:37.306 +12:00 [DBG] Endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)' with route pattern 'sendemail' is valid for the request path '/sendemail'
+2022-08-12 09:52:37.511 +12:00 [DBG] Request matched endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)'
+2022-08-12 09:52:37.542 +12:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-08-12 09:52:37.558 +12:00 [INF] Executing endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)'
+2022-08-12 09:52:37.565 +12:00 [INF] Route matched with {action = "SendEmail", controller = "Mail"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] SendEmail(EmailService.Models.EmailBodyDto) on controller EmailService.Controllers.MailController (EmailService).
+2022-08-12 09:52:37.576 +12:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-12 09:52:37.589 +12:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-12 09:52:37.602 +12:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-12 09:52:37.655 +12:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-12 09:52:37.677 +12:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-12 09:52:37.697 +12:00 [DBG] Executing controller factory for controller EmailService.Controllers.MailController (EmailService)
+2022-08-12 09:52:37.714 +12:00 [DBG] Executed controller factory for controller EmailService.Controllers.MailController (EmailService)
+2022-08-12 09:52:37.729 +12:00 [DBG] Attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto' ...
+2022-08-12 09:52:37.734 +12:00 [DBG] Attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto' using the name '' in request data ...
+2022-08-12 09:52:37.745 +12:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-08-12 09:52:37.752 +12:00 [DBG] Connection id "0HMJRS9SRQ30H", Request id "0HMJRS9SRQ30H:00000003": started reading request body.
+2022-08-12 09:52:37.760 +12:00 [DBG] Connection id "0HMJRS9SRQ30H", Request id "0HMJRS9SRQ30H:00000003": done reading request body.
+2022-08-12 09:52:37.769 +12:00 [DBG] JSON input formatter succeeded, deserializing to type 'EmailService.Models.EmailBodyDto'
+2022-08-12 09:52:37.777 +12:00 [DBG] Done attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto'.
+2022-08-12 09:52:37.783 +12:00 [DBG] Done attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto'.
+2022-08-12 09:52:37.793 +12:00 [DBG] Attempting to validate the bound parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto' ...
+2022-08-12 09:52:37.801 +12:00 [DBG] Done attempting to validate the bound parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto'.
+2022-08-12 09:52:37.845 +12:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-08-12 09:52:37.880 +12:00 [DBG] No information found on request to perform content negotiation.
+2022-08-12 09:52:37.894 +12:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-08-12 09:52:37.911 +12:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-08-12 09:52:37.918 +12:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2022-08-12 09:52:37.923 +12:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2022-08-12 09:52:37.935 +12:00 [INF] Executed action EmailService.Controllers.MailController.SendEmail (EmailService) in 238.653ms
+2022-08-12 09:52:37.960 +12:00 [INF] Executed endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)'
+2022-08-12 09:52:37.963 +12:00 [INF] Request finished HTTP/2 POST https://localhost:7210/sendemail application/json 141 - 400 - text/plain;+charset=utf-8 689.3178ms
+2022-08-12 09:52:50.909 +12:00 [INF] Request starting HTTP/2 POST https://localhost:7210/sendemail application/json 109
+2022-08-12 09:52:50.912 +12:00 [DBG] 1 candidate(s) found for the request path '/sendemail'
+2022-08-12 09:52:50.944 +12:00 [DBG] Endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)' with route pattern 'sendemail' is valid for the request path '/sendemail'
+2022-08-12 09:52:50.951 +12:00 [DBG] Request matched endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)'
+2022-08-12 09:52:50.964 +12:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-08-12 09:52:50.967 +12:00 [INF] Executing endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)'
+2022-08-12 09:52:50.974 +12:00 [INF] Route matched with {action = "SendEmail", controller = "Mail"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] SendEmail(EmailService.Models.EmailBodyDto) on controller EmailService.Controllers.MailController (EmailService).
+2022-08-12 09:52:50.981 +12:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-12 09:52:50.989 +12:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-12 09:52:50.993 +12:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-12 09:52:50.998 +12:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-12 09:52:51.001 +12:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-12 09:52:51.007 +12:00 [DBG] Executing controller factory for controller EmailService.Controllers.MailController (EmailService)
+2022-08-12 09:52:51.017 +12:00 [DBG] Executed controller factory for controller EmailService.Controllers.MailController (EmailService)
+2022-08-12 09:52:51.028 +12:00 [DBG] Attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto' ...
+2022-08-12 09:52:51.034 +12:00 [DBG] Attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto' using the name '' in request data ...
+2022-08-12 09:52:51.045 +12:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-08-12 09:52:51.060 +12:00 [DBG] Connection id "0HMJRS9SRQ30H", Request id "0HMJRS9SRQ30H:00000005": started reading request body.
+2022-08-12 09:52:51.063 +12:00 [DBG] Connection id "0HMJRS9SRQ30H", Request id "0HMJRS9SRQ30H:00000005": done reading request body.
+2022-08-12 09:52:51.067 +12:00 [DBG] JSON input formatter succeeded, deserializing to type 'EmailService.Models.EmailBodyDto'
+2022-08-12 09:52:51.074 +12:00 [DBG] Done attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto'.
+2022-08-12 09:52:51.079 +12:00 [DBG] Done attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto'.
+2022-08-12 09:52:51.081 +12:00 [DBG] Attempting to validate the bound parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto' ...
+2022-08-12 09:52:51.092 +12:00 [DBG] Done attempting to validate the bound parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto'.
+2022-08-12 09:52:51.095 +12:00 [DBG] The request has model state errors, returning an error response.
+2022-08-12 09:52:51.102 +12:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2022-08-12 09:52:51.106 +12:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-08-12 09:52:51.112 +12:00 [DBG] No information found on request to perform content negotiation.
+2022-08-12 09:52:51.115 +12:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2022-08-12 09:52:51.123 +12:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2022-08-12 09:52:51.127 +12:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-08-12 09:52:51.139 +12:00 [INF] Executed action EmailService.Controllers.MailController.SendEmail (EmailService) in 132.4727ms
+2022-08-12 09:52:51.143 +12:00 [INF] Executed endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)'
+2022-08-12 09:52:51.146 +12:00 [INF] Request finished HTTP/2 POST https://localhost:7210/sendemail application/json 109 - 400 - application/problem+json;+charset=utf-8 237.0480ms
+2022-08-12 09:57:23.689 +12:00 [DBG] Connection id "0HMJRS9SRQ30H" received FIN.
+2022-08-12 09:57:23.735 +12:00 [DBG] Connection id "0HMJRS9SRQ30H" is closed. The last processed stream ID was 5.
+2022-08-12 09:57:23.760 +12:00 [DBG] Connection id "0HMJRS9SRQ30H" sending FIN because: "The client closed the connection."
+2022-08-12 09:57:23.772 +12:00 [DBG] Connection id "0HMJRS9SRQ30H" stopped.
+2022-08-12 12:59:55.679 +12:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-08-12 12:59:56.247 +12:00 [DBG] Hosting starting
+2022-08-12 12:59:56.986 +12:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 59E02EFD4CC2C3C51123EA08CBA6E58580EB7BE8)
+2022-08-12 12:59:57.132 +12:00 [INF] Now listening on: https://localhost:7210
+2022-08-12 12:59:57.162 +12:00 [INF] Now listening on: http://localhost:5210
+2022-08-12 12:59:57.165 +12:00 [DBG] Loaded hosting startup assembly EmailService
+2022-08-12 12:59:57.168 +12:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-08-12 12:59:57.170 +12:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-08-12 12:59:57.173 +12:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-12 12:59:57.176 +12:00 [INF] Hosting environment: Development
+2022-08-12 12:59:57.178 +12:00 [INF] Content root path: C:\Users\jordan.m\OneDrive - Digital Island\Documents\DaprTest\EmailService\
+2022-08-12 12:59:57.181 +12:00 [DBG] Hosting started
+2022-08-12 12:59:57.264 +12:00 [DBG] Connection id "0HMJRVNSR6FMJ" accepted.
+2022-08-12 12:59:57.279 +12:00 [DBG] Connection id "0HMJRVNSR6FMJ" started.
+2022-08-12 12:59:57.305 +12:00 [DBG] Connection id "0HMJRVNSR6FMK" accepted.
+2022-08-12 12:59:57.312 +12:00 [DBG] Connection id "0HMJRVNSR6FMK" started.
+2022-08-12 13:00:03.500 +12:00 [DBG] Connection id "0HMJRVNSR6FML" accepted.
+2022-08-12 13:00:03.716 +12:00 [DBG] Connection id "0HMJRVNSR6FML" started.
+2022-08-12 13:00:03.969 +12:00 [DBG] Connection 0HMJRVNSR6FML established using the following protocol: "Tls12"
+2022-08-12 13:00:04.210 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/swagger/index.html - -
+2022-08-12 13:00:04.375 +12:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-08-12 13:00:04.460 +12:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-08-12 13:00:04.464 +12:00 [DBG] Request did not match any endpoints
+2022-08-12 13:00:05.019 +12:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-08-12 13:00:06.585 +12:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-08-12 13:00:06.722 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/_vs/browserLink - -
+2022-08-12 13:00:06.766 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/_framework/aspnetcore-browser-refresh.js - -
+2022-08-12 13:00:06.850 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/swagger/index.html - - - 200 - text/html;charset=utf-8 2611.6463ms
+2022-08-12 13:00:06.877 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 110.9712ms
+2022-08-12 13:00:07.085 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 363.2194ms
+2022-08-12 13:00:07.330 +12:00 [INF] Request starting HTTP/2 GET https://localhost:7210/swagger/v1/swagger.json - -
+2022-08-12 13:00:07.334 +12:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-08-12 13:00:07.337 +12:00 [DBG] Request did not match any endpoints
+2022-08-12 13:00:07.385 +12:00 [DBG] Authentication of the HTTPS connection timed out.
+2022-08-12 13:00:07.385 +12:00 [DBG] Authentication of the HTTPS connection timed out.
+2022-08-12 13:00:07.398 +12:00 [DBG] Connection id "0HMJRVNSR6FMJ" stopped.
+2022-08-12 13:00:07.398 +12:00 [DBG] Connection id "0HMJRVNSR6FMK" stopped.
+2022-08-12 13:00:07.404 +12:00 [DBG] Connection id "0HMJRVNSR6FMJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-12 13:00:07.405 +12:00 [DBG] Connection id "0HMJRVNSR6FMK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-12 13:00:07.727 +12:00 [INF] Request finished HTTP/2 GET https://localhost:7210/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 396.1977ms
+2022-08-12 13:00:11.593 +12:00 [INF] Request starting HTTP/2 POST https://localhost:7210/sendemail application/json 210
+2022-08-12 13:00:11.608 +12:00 [DBG] 1 candidate(s) found for the request path '/sendemail'
+2022-08-12 13:00:11.617 +12:00 [DBG] Endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)' with route pattern 'sendemail' is valid for the request path '/sendemail'
+2022-08-12 13:00:11.624 +12:00 [DBG] Request matched endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)'
+2022-08-12 13:00:11.631 +12:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-08-12 13:00:11.639 +12:00 [INF] Executing endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)'
+2022-08-12 13:00:11.720 +12:00 [INF] Route matched with {action = "SendEmail", controller = "Mail"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] SendEmail(EmailService.Models.EmailBodyDto) on controller EmailService.Controllers.MailController (EmailService).
+2022-08-12 13:00:11.730 +12:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-12 13:00:11.735 +12:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-12 13:00:11.744 +12:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-12 13:00:11.752 +12:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-12 13:00:11.759 +12:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-12 13:00:11.767 +12:00 [DBG] Executing controller factory for controller EmailService.Controllers.MailController (EmailService)
+2022-08-12 13:00:12.975 +12:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-08-12 13:00:13.053 +12:00 [DBG] Executed controller factory for controller EmailService.Controllers.MailController (EmailService)
+2022-08-12 13:00:13.086 +12:00 [DBG] Attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto' ...
+2022-08-12 13:00:13.096 +12:00 [DBG] Attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto' using the name '' in request data ...
+2022-08-12 13:00:13.102 +12:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-08-12 13:00:13.118 +12:00 [DBG] Connection id "0HMJRVNSR6FML", Request id "0HMJRVNSR6FML:00000009": started reading request body.
+2022-08-12 13:00:13.122 +12:00 [DBG] Connection id "0HMJRVNSR6FML", Request id "0HMJRVNSR6FML:00000009": done reading request body.
+2022-08-12 13:00:13.138 +12:00 [DBG] JSON input formatter succeeded, deserializing to type 'EmailService.Models.EmailBodyDto'
+2022-08-12 13:00:13.141 +12:00 [DBG] Done attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto'.
+2022-08-12 13:00:13.144 +12:00 [DBG] Done attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto'.
+2022-08-12 13:00:13.147 +12:00 [DBG] Attempting to validate the bound parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto' ...
+2022-08-12 13:00:13.168 +12:00 [DBG] Done attempting to validate the bound parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto'.
+2022-08-12 13:00:18.600 +12:00 [INF] Sent email to jordan.m@digitalisland.co.nz about Reset Password
+2022-08-12 13:00:20.272 +12:00 [INF] Entity Framework Core 6.0.8 initialized 'DIEmailContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2022-08-12 13:00:20.413 +12:00 [DBG] 'DIEmailContext' generated a temporary value for the property 'EmailLogId.EmailLog'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-08-12 13:00:20.543 +12:00 [DBG] Context 'DIEmailContext' started tracking 'EmailLog' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-08-12 13:00:20.572 +12:00 [DBG] SaveChanges starting for 'DIEmailContext'.
+2022-08-12 13:00:20.588 +12:00 [DBG] DetectChanges starting for 'DIEmailContext'.
+2022-08-12 13:00:20.618 +12:00 [DBG] DetectChanges completed for 'DIEmailContext'.
+2022-08-12 13:00:21.037 +12:00 [DBG] Opening connection to database 'di-user' on server 'di-test.database.windows.net'.
+2022-08-12 13:00:22.737 +12:00 [DBG] Opened connection to database 'di-user' on server 'di-test.database.windows.net'.
+2022-08-12 13:00:22.755 +12:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-08-12 13:00:22.831 +12:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2022-08-12 13:00:22.969 +12:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-08-12 13:00:22.991 +12:00 [DBG] Created DbCommand for 'ExecuteReader' (11ms).
+2022-08-12 13:00:23.061 +12:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 254), @p1='?' (Size = 230), @p2='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [EmailLogs] ([EmailTo], [Subject], [Time])
+VALUES (@p0, @p1, @p2);
+SELECT [EmailLogId]
+FROM [EmailLogs]
+WHERE @@ROWCOUNT = 1 AND [EmailLogId] = scope_identity();
+2022-08-12 13:00:23.305 +12:00 [INF] Executed DbCommand (270ms) [Parameters=[@p0='?' (Size = 254), @p1='?' (Size = 230), @p2='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [EmailLogs] ([EmailTo], [Subject], [Time])
+VALUES (@p0, @p1, @p2);
+SELECT [EmailLogId]
+FROM [EmailLogs]
+WHERE @@ROWCOUNT = 1 AND [EmailLogId] = scope_identity();
+2022-08-12 13:00:23.377 +12:00 [DBG] The foreign key property 'EmailLog.EmailLogId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2022-08-12 13:00:23.409 +12:00 [DBG] A data reader was disposed.
+2022-08-12 13:00:23.429 +12:00 [DBG] Committing transaction.
+2022-08-12 13:00:23.476 +12:00 [DBG] Committed transaction.
+2022-08-12 13:00:23.490 +12:00 [DBG] Closing connection to database 'di-user' on server 'di-test.database.windows.net'.
+2022-08-12 13:00:23.509 +12:00 [DBG] Closed connection to database 'di-user' on server 'di-test.database.windows.net'.
+2022-08-12 13:00:23.517 +12:00 [DBG] Disposing transaction.
+2022-08-12 13:00:23.542 +12:00 [DBG] An entity of type 'EmailLog' tracked by 'DIEmailContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-08-12 13:00:23.552 +12:00 [DBG] SaveChanges completed for 'DIEmailContext' with 1 entities written to the database.
+2022-08-12 13:00:23.571 +12:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2022-08-12 13:00:23.581 +12:00 [INF] Executed action EmailService.Controllers.MailController.SendEmail (EmailService) in 11809.9525ms
+2022-08-12 13:00:23.586 +12:00 [INF] Executed endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)'
+2022-08-12 13:00:23.596 +12:00 [DBG] 'DIEmailContext' disposed.
+2022-08-12 13:00:23.604 +12:00 [INF] Request finished HTTP/2 POST https://localhost:7210/sendemail application/json 210 - 204 - - 12010.8250ms
+2022-08-12 14:04:24.402 +12:00 [INF] Request starting HTTP/2 POST https://localhost:7210/sendemail application/json 210
+2022-08-12 14:04:24.409 +12:00 [DBG] 1 candidate(s) found for the request path '/sendemail'
+2022-08-12 14:04:24.413 +12:00 [DBG] Endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)' with route pattern 'sendemail' is valid for the request path '/sendemail'
+2022-08-12 14:04:24.418 +12:00 [DBG] Request matched endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)'
+2022-08-12 14:04:24.423 +12:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-08-12 14:04:24.428 +12:00 [INF] Executing endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)'
+2022-08-12 14:04:24.435 +12:00 [INF] Route matched with {action = "SendEmail", controller = "Mail"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] SendEmail(EmailService.Models.EmailBodyDto) on controller EmailService.Controllers.MailController (EmailService).
+2022-08-12 14:04:24.441 +12:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-12 14:04:24.445 +12:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-12 14:04:24.455 +12:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-12 14:04:24.462 +12:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-12 14:04:24.465 +12:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-12 14:04:24.469 +12:00 [DBG] Executing controller factory for controller EmailService.Controllers.MailController (EmailService)
+2022-08-12 14:04:24.481 +12:00 [DBG] Executed controller factory for controller EmailService.Controllers.MailController (EmailService)
+2022-08-12 14:04:24.485 +12:00 [DBG] Attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto' ...
+2022-08-12 14:04:24.488 +12:00 [DBG] Attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto' using the name '' in request data ...
+2022-08-12 14:04:24.492 +12:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-08-12 14:04:24.496 +12:00 [DBG] Connection id "0HMJRVNSR6FML", Request id "0HMJRVNSR6FML:0000000B": started reading request body.
+2022-08-12 14:04:24.499 +12:00 [DBG] Connection id "0HMJRVNSR6FML", Request id "0HMJRVNSR6FML:0000000B": done reading request body.
+2022-08-12 14:04:24.502 +12:00 [DBG] JSON input formatter succeeded, deserializing to type 'EmailService.Models.EmailBodyDto'
+2022-08-12 14:04:24.504 +12:00 [DBG] Done attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto'.
+2022-08-12 14:04:24.506 +12:00 [DBG] Done attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto'.
+2022-08-12 14:04:24.508 +12:00 [DBG] Attempting to validate the bound parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto' ...
+2022-08-12 14:04:24.512 +12:00 [DBG] Done attempting to validate the bound parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto'.
+2022-08-12 14:04:29.729 +12:00 [INF] Sent email to jordan.m@digitalisland.co.nz about Reset Password
+2022-08-12 14:04:29.811 +12:00 [INF] Entity Framework Core 6.0.8 initialized 'DIEmailContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2022-08-12 14:04:29.817 +12:00 [DBG] 'DIEmailContext' generated a temporary value for the property 'EmailLogId.EmailLog'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-08-12 14:04:29.822 +12:00 [DBG] Context 'DIEmailContext' started tracking 'EmailLog' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-08-12 14:04:29.825 +12:00 [DBG] SaveChanges starting for 'DIEmailContext'.
+2022-08-12 14:04:29.828 +12:00 [DBG] DetectChanges starting for 'DIEmailContext'.
+2022-08-12 14:04:29.830 +12:00 [DBG] DetectChanges completed for 'DIEmailContext'.
+2022-08-12 14:04:29.833 +12:00 [DBG] Opening connection to database 'di-user' on server 'di-test.database.windows.net'.
+2022-08-12 14:04:30.193 +12:00 [DBG] Opened connection to database 'di-user' on server 'di-test.database.windows.net'.
+2022-08-12 14:04:30.199 +12:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-08-12 14:04:30.241 +12:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2022-08-12 14:04:30.246 +12:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-08-12 14:04:30.249 +12:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2022-08-12 14:04:30.252 +12:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 254), @p1='?' (Size = 230), @p2='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [EmailLogs] ([EmailTo], [Subject], [Time])
+VALUES (@p0, @p1, @p2);
+SELECT [EmailLogId]
+FROM [EmailLogs]
+WHERE @@ROWCOUNT = 1 AND [EmailLogId] = scope_identity();
+2022-08-12 14:04:30.302 +12:00 [INF] Executed DbCommand (49ms) [Parameters=[@p0='?' (Size = 254), @p1='?' (Size = 230), @p2='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [EmailLogs] ([EmailTo], [Subject], [Time])
+VALUES (@p0, @p1, @p2);
+SELECT [EmailLogId]
+FROM [EmailLogs]
+WHERE @@ROWCOUNT = 1 AND [EmailLogId] = scope_identity();
+2022-08-12 14:04:30.320 +12:00 [DBG] The foreign key property 'EmailLog.EmailLogId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2022-08-12 14:04:30.325 +12:00 [DBG] A data reader was disposed.
+2022-08-12 14:04:30.328 +12:00 [DBG] Committing transaction.
+2022-08-12 14:04:30.406 +12:00 [DBG] Committed transaction.
+2022-08-12 14:04:30.408 +12:00 [DBG] Closing connection to database 'di-user' on server 'di-test.database.windows.net'.
+2022-08-12 14:04:30.412 +12:00 [DBG] Closed connection to database 'di-user' on server 'di-test.database.windows.net'.
+2022-08-12 14:04:30.414 +12:00 [DBG] Disposing transaction.
+2022-08-12 14:04:30.416 +12:00 [DBG] An entity of type 'EmailLog' tracked by 'DIEmailContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-08-12 14:04:30.420 +12:00 [DBG] SaveChanges completed for 'DIEmailContext' with 1 entities written to the database.
+2022-08-12 14:04:30.422 +12:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2022-08-12 14:04:30.424 +12:00 [INF] Executed action EmailService.Controllers.MailController.SendEmail (EmailService) in 5954.7804ms
+2022-08-12 14:04:30.426 +12:00 [INF] Executed endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)'
+2022-08-12 14:04:30.429 +12:00 [DBG] 'DIEmailContext' disposed.
+2022-08-12 14:04:30.431 +12:00 [INF] Request finished HTTP/2 POST https://localhost:7210/sendemail application/json 210 - 204 - - 6078.9568ms
+2022-08-12 14:30:18.726 +12:00 [INF] Request starting HTTP/2 POST https://localhost:7210/sendemail application/json 142
+2022-08-12 14:30:18.742 +12:00 [DBG] 1 candidate(s) found for the request path '/sendemail'
+2022-08-12 14:30:18.746 +12:00 [DBG] Endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)' with route pattern 'sendemail' is valid for the request path '/sendemail'
+2022-08-12 14:30:18.749 +12:00 [DBG] Request matched endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)'
+2022-08-12 14:30:18.752 +12:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-08-12 14:30:18.754 +12:00 [INF] Executing endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)'
+2022-08-12 14:30:18.757 +12:00 [INF] Route matched with {action = "SendEmail", controller = "Mail"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] SendEmail(EmailService.Models.EmailBodyDto) on controller EmailService.Controllers.MailController (EmailService).
+2022-08-12 14:30:18.766 +12:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-12 14:30:18.770 +12:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-12 14:30:18.774 +12:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-12 14:30:18.780 +12:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-12 14:30:18.784 +12:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-12 14:30:18.788 +12:00 [DBG] Executing controller factory for controller EmailService.Controllers.MailController (EmailService)
+2022-08-12 14:30:18.797 +12:00 [DBG] Executed controller factory for controller EmailService.Controllers.MailController (EmailService)
+2022-08-12 14:30:18.801 +12:00 [DBG] Attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto' ...
+2022-08-12 14:30:18.805 +12:00 [DBG] Attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto' using the name '' in request data ...
+2022-08-12 14:30:18.810 +12:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-08-12 14:30:18.814 +12:00 [DBG] Connection id "0HMJRVNSR6FML", Request id "0HMJRVNSR6FML:0000000D": started reading request body.
+2022-08-12 14:30:18.818 +12:00 [DBG] Connection id "0HMJRVNSR6FML", Request id "0HMJRVNSR6FML:0000000D": done reading request body.
+2022-08-12 14:30:18.821 +12:00 [DBG] JSON input formatter succeeded, deserializing to type 'EmailService.Models.EmailBodyDto'
+2022-08-12 14:30:18.824 +12:00 [DBG] Done attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto'.
+2022-08-12 14:30:18.828 +12:00 [DBG] Done attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto'.
+2022-08-12 14:30:18.831 +12:00 [DBG] Attempting to validate the bound parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto' ...
+2022-08-12 14:30:18.836 +12:00 [DBG] Done attempting to validate the bound parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto'.
+2022-08-12 14:30:23.221 +12:00 [INF] Sent email to jordan.m@digitalisland.co.nz about Ticket completed
+2022-08-12 14:30:23.235 +12:00 [INF] Entity Framework Core 6.0.8 initialized 'DIEmailContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2022-08-12 14:30:23.240 +12:00 [DBG] 'DIEmailContext' generated a temporary value for the property 'EmailLogId.EmailLog'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-08-12 14:30:23.243 +12:00 [DBG] Context 'DIEmailContext' started tracking 'EmailLog' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-08-12 14:30:23.246 +12:00 [DBG] SaveChanges starting for 'DIEmailContext'.
+2022-08-12 14:30:23.248 +12:00 [DBG] DetectChanges starting for 'DIEmailContext'.
+2022-08-12 14:30:23.250 +12:00 [DBG] DetectChanges completed for 'DIEmailContext'.
+2022-08-12 14:30:23.252 +12:00 [DBG] Opening connection to database 'di-user' on server 'di-test.database.windows.net'.
+2022-08-12 14:30:23.696 +12:00 [DBG] Opened connection to database 'di-user' on server 'di-test.database.windows.net'.
+2022-08-12 14:30:23.701 +12:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-08-12 14:30:23.733 +12:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2022-08-12 14:30:23.736 +12:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-08-12 14:30:23.738 +12:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2022-08-12 14:30:23.740 +12:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 254), @p1='?' (Size = 230), @p2='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [EmailLogs] ([EmailTo], [Subject], [Time])
+VALUES (@p0, @p1, @p2);
+SELECT [EmailLogId]
+FROM [EmailLogs]
+WHERE @@ROWCOUNT = 1 AND [EmailLogId] = scope_identity();
+2022-08-12 14:30:23.778 +12:00 [INF] Executed DbCommand (38ms) [Parameters=[@p0='?' (Size = 254), @p1='?' (Size = 230), @p2='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [EmailLogs] ([EmailTo], [Subject], [Time])
+VALUES (@p0, @p1, @p2);
+SELECT [EmailLogId]
+FROM [EmailLogs]
+WHERE @@ROWCOUNT = 1 AND [EmailLogId] = scope_identity();
+2022-08-12 14:30:23.783 +12:00 [DBG] The foreign key property 'EmailLog.EmailLogId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2022-08-12 14:30:23.786 +12:00 [DBG] A data reader was disposed.
+2022-08-12 14:30:23.787 +12:00 [DBG] Committing transaction.
+2022-08-12 14:30:23.852 +12:00 [DBG] Committed transaction.
+2022-08-12 14:30:23.854 +12:00 [DBG] Closing connection to database 'di-user' on server 'di-test.database.windows.net'.
+2022-08-12 14:30:23.857 +12:00 [DBG] Closed connection to database 'di-user' on server 'di-test.database.windows.net'.
+2022-08-12 14:30:23.860 +12:00 [DBG] Disposing transaction.
+2022-08-12 14:30:23.864 +12:00 [DBG] An entity of type 'EmailLog' tracked by 'DIEmailContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-08-12 14:30:23.868 +12:00 [DBG] SaveChanges completed for 'DIEmailContext' with 1 entities written to the database.
+2022-08-12 14:30:23.871 +12:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2022-08-12 14:30:23.872 +12:00 [INF] Executed action EmailService.Controllers.MailController.SendEmail (EmailService) in 5084.6761ms
+2022-08-12 14:30:23.876 +12:00 [INF] Executed endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)'
+2022-08-12 14:30:23.878 +12:00 [DBG] 'DIEmailContext' disposed.
+2022-08-12 14:30:23.880 +12:00 [INF] Request finished HTTP/2 POST https://localhost:7210/sendemail application/json 142 - 204 - - 5157.4184ms
+2022-08-12 14:58:07.443 +12:00 [INF] Request starting HTTP/2 POST https://localhost:7210/sendemail application/json 142
+2022-08-12 14:58:07.466 +12:00 [DBG] 1 candidate(s) found for the request path '/sendemail'
+2022-08-12 14:58:07.472 +12:00 [DBG] Endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)' with route pattern 'sendemail' is valid for the request path '/sendemail'
+2022-08-12 14:58:07.477 +12:00 [DBG] Request matched endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)'
+2022-08-12 14:58:07.479 +12:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-08-12 14:58:07.481 +12:00 [INF] Executing endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)'
+2022-08-12 14:58:07.484 +12:00 [INF] Route matched with {action = "SendEmail", controller = "Mail"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] SendEmail(EmailService.Models.EmailBodyDto) on controller EmailService.Controllers.MailController (EmailService).
+2022-08-12 14:58:07.488 +12:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-12 14:58:07.491 +12:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-12 14:58:07.495 +12:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-12 14:58:07.499 +12:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-12 14:58:07.502 +12:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-12 14:58:07.506 +12:00 [DBG] Executing controller factory for controller EmailService.Controllers.MailController (EmailService)
+2022-08-12 14:58:07.509 +12:00 [DBG] Executed controller factory for controller EmailService.Controllers.MailController (EmailService)
+2022-08-12 14:58:07.512 +12:00 [DBG] Attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto' ...
+2022-08-12 14:58:07.515 +12:00 [DBG] Attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto' using the name '' in request data ...
+2022-08-12 14:58:07.518 +12:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-08-12 14:58:07.521 +12:00 [DBG] Connection id "0HMJRVNSR6FML", Request id "0HMJRVNSR6FML:0000000F": started reading request body.
+2022-08-12 14:58:07.523 +12:00 [DBG] Connection id "0HMJRVNSR6FML", Request id "0HMJRVNSR6FML:0000000F": done reading request body.
+2022-08-12 14:58:07.527 +12:00 [DBG] JSON input formatter succeeded, deserializing to type 'EmailService.Models.EmailBodyDto'
+2022-08-12 14:58:07.529 +12:00 [DBG] Done attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto'.
+2022-08-12 14:58:07.532 +12:00 [DBG] Done attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto'.
+2022-08-12 14:58:07.534 +12:00 [DBG] Attempting to validate the bound parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto' ...
+2022-08-12 14:58:07.537 +12:00 [DBG] Done attempting to validate the bound parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto'.
+2022-08-12 14:58:12.318 +12:00 [INF] Sent email to jordan.m@digitalisland.co.nz about Ticket completed
+2022-08-12 14:58:12.322 +12:00 [INF] Entity Framework Core 6.0.8 initialized 'DIEmailContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: None
+2022-08-12 14:58:12.328 +12:00 [DBG] 'DIEmailContext' generated a temporary value for the property 'EmailLogId.EmailLog'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-08-12 14:58:12.332 +12:00 [DBG] Context 'DIEmailContext' started tracking 'EmailLog' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-08-12 14:58:12.336 +12:00 [DBG] SaveChanges starting for 'DIEmailContext'.
+2022-08-12 14:58:12.338 +12:00 [DBG] DetectChanges starting for 'DIEmailContext'.
+2022-08-12 14:58:12.341 +12:00 [DBG] DetectChanges completed for 'DIEmailContext'.
+2022-08-12 14:58:12.345 +12:00 [DBG] Opening connection to database 'di-user' on server 'di-test.database.windows.net'.
+2022-08-12 14:58:12.576 +12:00 [DBG] Opened connection to database 'di-user' on server 'di-test.database.windows.net'.
+2022-08-12 14:58:12.583 +12:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-08-12 14:58:12.618 +12:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2022-08-12 14:58:12.621 +12:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-08-12 14:58:12.623 +12:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2022-08-12 14:58:12.626 +12:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 254), @p1='?' (Size = 230), @p2='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [EmailLogs] ([EmailTo], [Subject], [Time])
+VALUES (@p0, @p1, @p2);
+SELECT [EmailLogId]
+FROM [EmailLogs]
+WHERE @@ROWCOUNT = 1 AND [EmailLogId] = scope_identity();
+2022-08-12 14:58:12.673 +12:00 [INF] Executed DbCommand (47ms) [Parameters=[@p0='?' (Size = 254), @p1='?' (Size = 230), @p2='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [EmailLogs] ([EmailTo], [Subject], [Time])
+VALUES (@p0, @p1, @p2);
+SELECT [EmailLogId]
+FROM [EmailLogs]
+WHERE @@ROWCOUNT = 1 AND [EmailLogId] = scope_identity();
+2022-08-12 14:58:12.678 +12:00 [DBG] The foreign key property 'EmailLog.EmailLogId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2022-08-12 14:58:12.681 +12:00 [DBG] A data reader was disposed.
+2022-08-12 14:58:12.683 +12:00 [DBG] Committing transaction.
+2022-08-12 14:58:12.739 +12:00 [DBG] Committed transaction.
+2022-08-12 14:58:12.741 +12:00 [DBG] Closing connection to database 'di-user' on server 'di-test.database.windows.net'.
+2022-08-12 14:58:12.744 +12:00 [DBG] Closed connection to database 'di-user' on server 'di-test.database.windows.net'.
+2022-08-12 14:58:12.747 +12:00 [DBG] Disposing transaction.
+2022-08-12 14:58:12.749 +12:00 [DBG] An entity of type 'EmailLog' tracked by 'DIEmailContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-08-12 14:58:12.754 +12:00 [DBG] SaveChanges completed for 'DIEmailContext' with 1 entities written to the database.
+2022-08-12 14:58:12.759 +12:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2022-08-12 14:58:12.762 +12:00 [INF] Executed action EmailService.Controllers.MailController.SendEmail (EmailService) in 5255.914ms
+2022-08-12 14:58:12.765 +12:00 [INF] Executed endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)'
+2022-08-12 14:58:12.768 +12:00 [DBG] 'DIEmailContext' disposed.
+2022-08-12 14:58:12.771 +12:00 [INF] Request finished HTTP/2 POST https://localhost:7210/sendemail application/json 142 - 204 - - 5331.1181ms
+2022-08-12 14:58:57.496 +12:00 [INF] Request starting HTTP/2 POST https://localhost:7210/sendemail application/json 141
+2022-08-12 14:58:57.516 +12:00 [DBG] 1 candidate(s) found for the request path '/sendemail'
+2022-08-12 14:58:57.524 +12:00 [DBG] Endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)' with route pattern 'sendemail' is valid for the request path '/sendemail'
+2022-08-12 14:58:57.529 +12:00 [DBG] Request matched endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)'
+2022-08-12 14:58:57.531 +12:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-08-12 14:58:57.532 +12:00 [INF] Executing endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)'
+2022-08-12 14:58:57.534 +12:00 [INF] Route matched with {action = "SendEmail", controller = "Mail"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] SendEmail(EmailService.Models.EmailBodyDto) on controller EmailService.Controllers.MailController (EmailService).
+2022-08-12 14:58:57.538 +12:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-12 14:58:57.541 +12:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-12 14:58:57.546 +12:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-12 14:58:57.550 +12:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-12 14:58:57.553 +12:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-12 14:58:57.556 +12:00 [DBG] Executing controller factory for controller EmailService.Controllers.MailController (EmailService)
+2022-08-12 14:58:57.559 +12:00 [DBG] Executed controller factory for controller EmailService.Controllers.MailController (EmailService)
+2022-08-12 14:58:57.561 +12:00 [DBG] Attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto' ...
+2022-08-12 14:58:57.564 +12:00 [DBG] Attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto' using the name '' in request data ...
+2022-08-12 14:58:57.567 +12:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-08-12 14:58:57.570 +12:00 [DBG] Connection id "0HMJRVNSR6FML", Request id "0HMJRVNSR6FML:00000011": started reading request body.
+2022-08-12 14:58:57.572 +12:00 [DBG] Connection id "0HMJRVNSR6FML", Request id "0HMJRVNSR6FML:00000011": done reading request body.
+2022-08-12 14:58:57.577 +12:00 [DBG] JSON input formatter succeeded, deserializing to type 'EmailService.Models.EmailBodyDto'
+2022-08-12 14:58:57.579 +12:00 [DBG] Done attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto'.
+2022-08-12 14:58:57.582 +12:00 [DBG] Done attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto'.
+2022-08-12 14:58:57.585 +12:00 [DBG] Attempting to validate the bound parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto' ...
+2022-08-12 14:58:57.587 +12:00 [DBG] Done attempting to validate the bound parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto'.
+2022-08-12 14:58:57.598 +12:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-08-12 14:58:57.611 +12:00 [DBG] No information found on request to perform content negotiation.
+2022-08-12 14:58:57.613 +12:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-08-12 14:58:57.615 +12:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-08-12 14:58:57.618 +12:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2022-08-12 14:58:57.621 +12:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2022-08-12 14:58:57.627 +12:00 [INF] Executed action EmailService.Controllers.MailController.SendEmail (EmailService) in 71.0335ms
+2022-08-12 14:58:57.630 +12:00 [INF] Executed endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)'
+2022-08-12 14:58:57.633 +12:00 [INF] Request finished HTTP/2 POST https://localhost:7210/sendemail application/json 141 - 400 - text/plain;+charset=utf-8 136.7997ms
+2022-08-12 14:59:06.148 +12:00 [INF] Request starting HTTP/2 POST https://localhost:7210/sendemail application/json 110
+2022-08-12 14:59:06.151 +12:00 [DBG] 1 candidate(s) found for the request path '/sendemail'
+2022-08-12 14:59:06.154 +12:00 [DBG] Endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)' with route pattern 'sendemail' is valid for the request path '/sendemail'
+2022-08-12 14:59:06.157 +12:00 [DBG] Request matched endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)'
+2022-08-12 14:59:06.160 +12:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-08-12 14:59:06.162 +12:00 [INF] Executing endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)'
+2022-08-12 14:59:06.165 +12:00 [INF] Route matched with {action = "SendEmail", controller = "Mail"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] SendEmail(EmailService.Models.EmailBodyDto) on controller EmailService.Controllers.MailController (EmailService).
+2022-08-12 14:59:06.170 +12:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-12 14:59:06.174 +12:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-12 14:59:06.180 +12:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-12 14:59:06.185 +12:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-12 14:59:06.189 +12:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-12 14:59:06.197 +12:00 [DBG] Executing controller factory for controller EmailService.Controllers.MailController (EmailService)
+2022-08-12 14:59:06.200 +12:00 [DBG] Executed controller factory for controller EmailService.Controllers.MailController (EmailService)
+2022-08-12 14:59:06.203 +12:00 [DBG] Attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto' ...
+2022-08-12 14:59:06.206 +12:00 [DBG] Attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto' using the name '' in request data ...
+2022-08-12 14:59:06.215 +12:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-08-12 14:59:06.218 +12:00 [DBG] Connection id "0HMJRVNSR6FML", Request id "0HMJRVNSR6FML:00000013": started reading request body.
+2022-08-12 14:59:06.221 +12:00 [DBG] Connection id "0HMJRVNSR6FML", Request id "0HMJRVNSR6FML:00000013": done reading request body.
+2022-08-12 14:59:06.224 +12:00 [DBG] JSON input formatter succeeded, deserializing to type 'EmailService.Models.EmailBodyDto'
+2022-08-12 14:59:06.227 +12:00 [DBG] Done attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto'.
+2022-08-12 14:59:06.232 +12:00 [DBG] Done attempting to bind parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto'.
+2022-08-12 14:59:06.235 +12:00 [DBG] Attempting to validate the bound parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto' ...
+2022-08-12 14:59:06.245 +12:00 [DBG] Done attempting to validate the bound parameter 'emailBody' of type 'EmailService.Models.EmailBodyDto'.
+2022-08-12 14:59:06.248 +12:00 [DBG] The request has model state errors, returning an error response.
+2022-08-12 14:59:06.255 +12:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2022-08-12 14:59:06.258 +12:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-08-12 14:59:06.264 +12:00 [DBG] No information found on request to perform content negotiation.
+2022-08-12 14:59:06.267 +12:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2022-08-12 14:59:06.272 +12:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2022-08-12 14:59:06.275 +12:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-08-12 14:59:06.291 +12:00 [INF] Executed action EmailService.Controllers.MailController.SendEmail (EmailService) in 94.3199ms
+2022-08-12 14:59:06.296 +12:00 [INF] Executed endpoint 'EmailService.Controllers.MailController.SendEmail (EmailService)'
+2022-08-12 14:59:06.299 +12:00 [INF] Request finished HTTP/2 POST https://localhost:7210/sendemail application/json 110 - 400 - application/problem+json;+charset=utf-8 150.4495ms

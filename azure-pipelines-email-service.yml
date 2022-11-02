@@ -1,0 +1,52 @@
+# ASP.NET Core (.NET Framework)
+# Build and test ASP.NET Core projects targeting the full .NET Framework.
+# Add steps that publish symbols, save build artifacts, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
+
+trigger:
+    branches:
+        include:
+        - main
+    paths:
+        include:
+        - 'EmailService/*'
+
+
+variables:
+  dockerfilePath: '$(Build.SourcesDirectory)/EmailService/Dockerfile'
+  vmImageName: 'ubuntu-latest'
+  imageRepository: 'emailservice'
+  containerRegistry: 'diinterns.azurecr.io'
+  tag: '$(Build.BuildId)'
+
+stages: 
+- stage: Build
+  displayName: Build and push stage
+  jobs:
+  - job: Build
+    displayName : Build
+    pool:
+      vmImage : $(vmImageName)
+
+    steps:
+    - task: Docker@2
+      displayName: BuildImage
+      inputs:
+        command: build
+        arguments: '--build-arg GIT_SHA=$(Build.SourceVersion) --tag $(imageRepository):$(tag)'
+        repository: $(imageRepository)
+        dockerfile: $(dockerfilePath)
+        buildContext: $(Build.SourcesDirectory)
+    - task: Docker@2
+      displayName: Save Image into Tar folder
+      inputs: 
+        command: save
+        arguments: '--output $(build.artifactstagingdirectory)/$(imageRepository).image.tar $(imageRepository):$(Build.BuildId)'
+        buildContext: $(Build.SourcesDirectory)
+
+    - task: PublishBuildArtifacts@1
+      displayName: Publish image artifact
+      inputs:
+        PathToPublish: '$(Build.ArtifactStagingDirectory)'
+        ArtifactName: 'drop'
+        publishLocation: 'Container'
